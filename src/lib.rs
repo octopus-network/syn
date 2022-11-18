@@ -306,7 +306,7 @@ mod macros;
 
 #[cfg(feature = "parsing")]
 #[macro_use]
-mod group;
+pub mod group;
 
 #[macro_use]
 pub mod token;
